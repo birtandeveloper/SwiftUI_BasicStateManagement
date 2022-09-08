@@ -32,8 +32,7 @@ struct StateChangeView: View {
                 Text("Color Blue".uppercased()).foregroundColor(.white).padding().background(backgroundColor.cornerRadius(10).shadow(radius: 10))
                 
             })
-        }
-        
+        }       
         
     }
         
@@ -48,3 +47,4 @@ struct StateChangeView_Previews: PreviewProvider {
         
         StateChangeView()
     }
+}
